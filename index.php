@@ -8,7 +8,7 @@
  * Find your timezone here
  * http://php.net/manual/en/timezones.php
  */
-	$timezone = "Asia/Kuala_Lumpur";
+	$timezone = "Asia/Manila";
 	if(function_exists('date_default_timezone_set')) date_default_timezone_set($timezone);
 	define('TIMEZONE', $timezone);
 
